@@ -1,4 +1,4 @@
-# 🧠 Eye Cancer Survival Estimator
+# Eye Cancer Survival Estimator
 
 This project applies advanced **machine learning techniques** to real-world clinical data in order to **predict the survival time (in months)** for patients with ocular cancer. The focus is on both predictive performance and **interpretability** using SHAP.
 
@@ -12,24 +12,24 @@ For example:
 - This **does not mean** that increasing chemotherapy sessions causes longer life.
 - In fact, this could reflect **survivorship bias** — those who live longer are able to receive more treatment.
 
-### 🚫 This tool is not a medical device
+### ⚠️ This tool is not a medical device
 
 - It should **not be used for clinical decision-making**.
 - It was built purely for **educational and exploratory purposes**.
 - Always consult a healthcare professional for medical evaluation or prognosis.
 
 
-## 📊 Overview
+## Overview
 
-- 🤖 Regression model using **XGBoost**
-- 🧬 Features include age, treatment types, stage, genetic markers, and family history
-- 📈 Model interpretability with **SHAP values**
-- 🧠 Interactive UI to simulate patients and view predictions in real time
-- 💡 Designed for portfolio use — clean, educational, and reproducible
+- Regression model using **XGBoost**
+- Features include age, treatment types, stage, genetic markers, and family history
+- Model interpretability with **SHAP values**
+- Interactive UI to simulate patients and view predictions in real time
+- Designed for portfolio use — clean, educational, and reproducible
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The dataset contains anonymized records of patients diagnosed with eye cancer, including:
 
@@ -48,7 +48,7 @@ The dataset contains anonymized records of patients diagnosed with eye cancer, i
 
 ---
 
-## 🔧 Techniques Used
+## Techniques Used
 
 - `XGBoostRegressor` for survival prediction
 - Feature engineering (`Years_Since_Diagnosis`)
@@ -61,7 +61,7 @@ The dataset contains anonymized records of patients diagnosed with eye cancer, i
 
 ---
 
-## 🧪 How to Use the Estimator
+## How to Use the Estimator
 
 Inside the notebook, scroll to the section:
 
